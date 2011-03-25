@@ -41,6 +41,11 @@
 	}
 }
 
+- (BOOL) shouldAutorotateToInterfaceOrientation: (UIInterfaceOrientation) interfaceOrientation 
+{
+    return YES;
+}
+
 - (void) add: (id) sender
 {
 	[self presentModalViewController:pickerController animated:YES];
@@ -265,6 +270,7 @@
 	NSString *writablePath = [documentsDirectory stringByAppendingPathComponent:filename];
 	
 	NSData* data = [fileManager contentsAtPath:writablePath];
+    NSLog(@"Password: %@", [[ApplicationStore sharedInstance] password]);
 	NSData* decrypted = [data AES256DecryptWithKey:[[ApplicationStore sharedInstance] password]];
 	[self.imageController setImageData: decrypted];
 	

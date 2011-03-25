@@ -68,13 +68,21 @@
 }
 
 
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+- (BOOL) shouldAutorotateToInterfaceOrientation: (UIInterfaceOrientation) interfaceOrientation 
+{
+    return YES;
 }
-*/
+
+- (void) didRotateFromInterfaceOrientation: (UIInterfaceOrientation) fromInterfaceOrientation 
+{
+    [imageView sizeToFit];
+	//[imageView setFr]
+	imageView.frame = CGRectMake(0.0, 0.0, imageView.frame.size.width, imageView.frame.size.height);
+	[scrollView setContentSize:self.image.size];
+	float minimumScale = [scrollView frame].size.width  / self.image.size.width;
+	scrollView.minimumZoomScale = minimumScale;
+	[scrollView setZoomScale:minimumScale];
+}
 
 #pragma mark UIScrollViewDelegate
 
