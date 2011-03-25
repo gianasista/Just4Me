@@ -28,7 +28,7 @@
 #pragma mark Application lifecycle
 
 - (BOOL) application: (UIApplication *) application didFinishLaunchingWithOptions: (NSDictionary *) launchOptions 
-{      
+{
 	if ([[ApplicationStore sharedInstance] hasPasswordSet])
 	{
 		self.authentificationController = [[AuthentificationController alloc] init];
@@ -42,10 +42,12 @@
 	    [window makeKeyAndVisible];
 	}
 	
+    /*
 	ListController *controller = (ListController *) [navigationController topViewController];
 	controller.managedObjectContext = self.managedObjectContext;
 	[window addSubview:navigationController.view];
     [window makeKeyAndVisible];
+     */
 		
     return YES;
 }
