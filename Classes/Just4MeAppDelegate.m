@@ -24,7 +24,6 @@
 @synthesize window;
 @synthesize navigationController;
 
-
 #pragma mark -
 #pragma mark Application lifecycle
 
@@ -47,15 +46,7 @@
 	controller.managedObjectContext = self.managedObjectContext;
 	[window addSubview:navigationController.view];
     [window makeKeyAndVisible];
-	
-	/*
-	UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"title" 
-														message:@"Enter passwort" 
-													   delegate:controller 
-											  cancelButtonTitle:nil 
-											  otherButtonTitles:@"OK", nil];
-	 */
-	
+		
     return YES;
 }
 

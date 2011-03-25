@@ -66,5 +66,4 @@
 @synthesize data;
 @synthesize delegate;
 
-
 @end

@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ImageController : UIViewController {
+@interface ImageController : UIViewController 
+{
 	IBOutlet UIImageView *imageView;
 	IBOutlet UIScrollView *scrollView;
 }

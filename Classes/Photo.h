@@ -9,9 +9,8 @@
 #import <Foundation/Foundation.h>
 
 
-@interface Photo : NSObject {
+@interface Photo : NSObject 
 
-}
 @property (nonatomic, assign) NSUInteger key;
 @property (nonatomic, retain) NSString *tag;
 @property (nonatomic, assign) BOOL hasThumbnail;

@@ -10,7 +10,8 @@
 
 @class KeychainItemWrapper;
 
-@interface ApplicationStore : NSObject {
+@interface ApplicationStore : NSObject 
+{
 	@private
 	KeychainItemWrapper *wrapper;
 }

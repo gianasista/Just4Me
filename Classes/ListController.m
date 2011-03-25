@@ -22,7 +22,6 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-
 - (void) viewDidLoad 
 {
 	[super viewDidLoad];

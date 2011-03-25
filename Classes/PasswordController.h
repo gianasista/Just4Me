@@ -10,9 +10,11 @@
 
 @protocol PasswordDelegate;
 
-@interface PasswordController : UIViewController <UIImagePickerControllerDelegate> {
+@interface PasswordController : UIViewController <UIImagePickerControllerDelegate> 
+{
 	IBOutlet UITextField *passwordTextField;
 }
+
 @property (nonatomic, retain) NSData *data;
 @property (nonatomic, assign) id delegate;
 

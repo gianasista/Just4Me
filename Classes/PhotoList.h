@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 
 
-@interface PhotoList : NSObject {
-
-}
+@interface PhotoList : NSObject
 
 @end

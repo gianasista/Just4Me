@@ -29,7 +29,7 @@
 */
 
 
-- (void)viewDidLoad 
+- (void) viewDidLoad 
 {
     [super viewDidLoad];
 	[passwordTextField setSecureTextEntry:YES];
@@ -43,14 +43,16 @@
 }
 */
 
-- (void)didReceiveMemoryWarning {
+- (void) didReceiveMemoryWarning 
+{
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
     
     // Release any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload {
+- (void)viewDidUnload 
+{
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -72,9 +74,9 @@
 }
 
 
-- (void)dealloc {
+- (void)dealloc 
+{
     [super dealloc];
 }
-
 
 @end

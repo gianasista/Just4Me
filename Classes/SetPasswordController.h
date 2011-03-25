@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 
-@interface SetPasswordController : UIViewController {
+@interface SetPasswordController : UIViewController 
+{
 	IBOutlet UITextField *passwordField;
 	IBOutlet UITextField *confirmField;
 }

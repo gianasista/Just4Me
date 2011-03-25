@@ -10,8 +10,8 @@
 
 #import <CoreData/CoreData.h>
 
-@interface Just4MeAppDelegate : NSObject <UIApplicationDelegate> {
-    
+@interface Just4MeAppDelegate : NSObject <UIApplicationDelegate> 
+{    
     UIWindow *window;
     UINavigationController *navigationController;
 @private

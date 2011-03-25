@@ -12,7 +12,8 @@
 
 @class ImageController;
 
-@interface ListController : UITableViewController <UIImagePickerControllerDelegate, NSFetchedResultsControllerDelegate> {
+@interface ListController : UITableViewController <UIImagePickerControllerDelegate, NSFetchedResultsControllerDelegate> 
+{
 	IBOutlet UIImagePickerController *pickerController;
 	IBOutlet UIImagePickerController *cameraController;
 	
@@ -21,6 +22,7 @@
     NSManagedObjectContext *managedObjectContext_;
 	
 }
+
 @property (nonatomic, retain) IBOutlet ImageController *imageController;
 @property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
