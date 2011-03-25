@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Just4MeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Just4MeAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28F335F11007B36200424DE2 /* ListeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* ListeViewController.xib */; };
+		D10684ED121482DD0004500E /* AuthentificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10684EC121482DD0004500E /* AuthentificationController.m */; };
+		D10684EF1214832F0004500E /* AuthentificationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10684EE1214832F0004500E /* AuthentificationController.xib */; };
+		D107C2771226FA4900853668 /* Icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = D107C2741226FA4900853668 /* Icon-small.png */; };
+		D107C2781226FA4900853668 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D107C2751226FA4900853668 /* Icon.png */; };
+		D107C2791226FA4900853668 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D107C2761226FA4900853668 /* Icon@2x.png */; };
+		D107C27C1226FA5300853668 /* Schloss.png in Resources */ = {isa = PBXBuildFile; fileRef = D107C27B1226FA5300853668 /* Schloss.png */; };
+		D12803A01209FF2700EF067F /* PasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = D128039E1209FF2700EF067F /* PasswordController.m */; };
+		D12803A11209FF2700EF067F /* PasswordController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D128039F1209FF2700EF067F /* PasswordController.xib */; };
+		D1499613121DC3D500A060BA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1499612121DC3D500A060BA /* CoreData.framework */; };
+		D1499634121DC52800A060BA /* Just4Me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1499632121DC52800A060BA /* Just4Me.xcdatamodeld */; };
+		D161C6EA1208AF7B0015A264 /* ListController.m in Sources */ = {isa = PBXBuildFile; fileRef = D161C6E91208AF7B0015A264 /* ListController.m */; };
+		D161C70E1208B17B0015A264 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = D161C70D1208B17B0015A264 /* NSData+AES256.m */; };
+		D161C7521208B7240015A264 /* ImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = D161C7501208B7240015A264 /* ImageController.m */; };
+		D161C7531208B7240015A264 /* ImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D161C7511208B7240015A264 /* ImageController.xib */; };
+		D1AAFBF3121462D900493690 /* SetPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AAFBF2121462D900493690 /* SetPasswordController.m */; };
+		D1AAFBF51214630D00493690 /* SetPasswordController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1AAFBF41214630D00493690 /* SetPasswordController.xib */; };
+		D1AF7FBF1213378B00BB1E38 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AF7FBE1213378B00BB1E38 /* KeychainItemWrapper.m */; };
+		D1AF7FC21213381100BB1E38 /* ApplicationStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AF7FC11213381100BB1E38 /* ApplicationStore.m */; };
+		D1AF7FF21213409700BB1E38 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AF7FF11213409700BB1E38 /* Security.framework */; };
+		D1FEB586120CA0D5000BF8C8 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FEB585120CA0D5000BF8C8 /* Photo.m */; };
+		D1FEB589120CA0E0000BF8C8 /* PhotoList.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FEB588120CA0E0000BF8C8 /* PhotoList.m */; };
+		D1FEB58E120CA1D2000BF8C8 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FEB58D120CA1D2000BF8C8 /* NSString+Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Just4MeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Just4MeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Just4MeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Just4MeAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Just4Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Just4Me.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* Just4Me_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Just4Me_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* ListeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListeViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Just4Me-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Just4Me-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D10684EB121482DD0004500E /* AuthentificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthentificationController.h; sourceTree = "<group>"; };
+		D10684EC121482DD0004500E /* AuthentificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthentificationController.m; sourceTree = "<group>"; };
+		D10684EE1214832F0004500E /* AuthentificationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthentificationController.xib; sourceTree = "<group>"; };
+		D107C2741226FA4900853668 /* Icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-small.png"; sourceTree = "<group>"; };
+		D107C2751226FA4900853668 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D107C2761226FA4900853668 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		D107C27B1226FA5300853668 /* Schloss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Schloss.png; sourceTree = "<group>"; };
+		D128039D1209FF2700EF067F /* PasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordController.h; sourceTree = "<group>"; };
+		D128039E1209FF2700EF067F /* PasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordController.m; sourceTree = "<group>"; };
+		D128039F1209FF2700EF067F /* PasswordController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordController.xib; sourceTree = "<group>"; };
+		D1499612121DC3D500A060BA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D1499633121DC52800A060BA /* Just4Me.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Just4Me.xcdatamodel; sourceTree = "<group>"; };
+		D161C6E81208AF7B0015A264 /* ListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListController.h; sourceTree = "<group>"; };
+		D161C6E91208AF7B0015A264 /* ListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListController.m; sourceTree = "<group>"; };
+		D161C70C1208B17B0015A264 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		D161C70D1208B17B0015A264 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		D161C74F1208B7240015A264 /* ImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageController.h; sourceTree = "<group>"; };
+		D161C7501208B7240015A264 /* ImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageController.m; sourceTree = "<group>"; };
+		D161C7511208B7240015A264 /* ImageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageController.xib; sourceTree = "<group>"; };
+		D1AAFBF1121462D900493690 /* SetPasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPasswordController.h; sourceTree = "<group>"; };
+		D1AAFBF2121462D900493690 /* SetPasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPasswordController.m; sourceTree = "<group>"; };
+		D1AAFBF41214630D00493690 /* SetPasswordController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetPasswordController.xib; sourceTree = "<group>"; };
+		D1AF7FBD1213378B00BB1E38 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		D1AF7FBE1213378B00BB1E38 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		D1AF7FC01213381100BB1E38 /* ApplicationStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationStore.h; sourceTree = "<group>"; };
+		D1AF7FC11213381100BB1E38 /* ApplicationStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationStore.m; sourceTree = "<group>"; };
+		D1AF7FF11213409700BB1E38 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D1FEB584120CA0D5000BF8C8 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		D1FEB585120CA0D5000BF8C8 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		D1FEB587120CA0E0000BF8C8 /* PhotoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoList.h; sourceTree = "<group>"; };
+		D1FEB588120CA0E0000BF8C8 /* PhotoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoList.m; sourceTree = "<group>"; };
+		D1FEB58C120CA1D2000BF8C8 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		D1FEB58D120CA1D2000BF8C8 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				D1AF7FF21213409700BB1E38 /* Security.framework in Frameworks */,
+				D1499613121DC3D500A060BA /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1AF7FBD1213378B00BB1E38 /* KeychainItemWrapper.h */,
+				D1AF7FBE1213378B00BB1E38 /* KeychainItemWrapper.m */,
+				D161C70C1208B17B0015A264 /* NSData+AES256.h */,
+				D161C70D1208B17B0015A264 /* NSData+AES256.m */,
+				1D3623240D0F684500981E51 /* Just4MeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Just4MeAppDelegate.m */,
+				D161C6E81208AF7B0015A264 /* ListController.h */,
+				D161C6E91208AF7B0015A264 /* ListController.m */,
+				D161C74F1208B7240015A264 /* ImageController.h */,
+				D161C7501208B7240015A264 /* ImageController.m */,
+				D128039D1209FF2700EF067F /* PasswordController.h */,
+				D128039E1209FF2700EF067F /* PasswordController.m */,
+				D1FEB584120CA0D5000BF8C8 /* Photo.h */,
+				D1FEB585120CA0D5000BF8C8 /* Photo.m */,
+				D1FEB587120CA0E0000BF8C8 /* PhotoList.h */,
+				D1FEB588120CA0E0000BF8C8 /* PhotoList.m */,
+				D1FEB58C120CA1D2000BF8C8 /* NSString+Helper.h */,
+				D1FEB58D120CA1D2000BF8C8 /* NSString+Helper.m */,
+				D1AF7FC01213381100BB1E38 /* ApplicationStore.h */,
+				D1AF7FC11213381100BB1E38 /* ApplicationStore.m */,
+				D1AAFBF1121462D900493690 /* SetPasswordController.h */,
+				D1AAFBF2121462D900493690 /* SetPasswordController.m */,
+				D10684EB121482DD0004500E /* AuthentificationController.h */,
+				D10684EC121482DD0004500E /* AuthentificationController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Just4Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* Just4Me_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D107C27A1226FA5300853668 /* Icons */,
+				D107C2741226FA4900853668 /* Icon-small.png */,
+				D107C2751226FA4900853668 /* Icon.png */,
+				D107C2761226FA4900853668 /* Icon@2x.png */,
+				D1499632121DC52800A060BA /* Just4Me.xcdatamodeld */,
+				D128039F1209FF2700EF067F /* PasswordController.xib */,
+				D161C7511208B7240015A264 /* ImageController.xib */,
+				28F335F01007B36200424DE2 /* ListeViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Just4Me-Info.plist */,
+				D1AAFBF41214630D00493690 /* SetPasswordController.xib */,
+				D10684EE1214832F0004500E /* AuthentificationController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				D1AF7FF11213409700BB1E38 /* Security.framework */,
+				D1499612121DC3D500A060BA /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D107C27A1226FA5300853668 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				D107C27B1226FA5300853668 /* Schloss.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Just4Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Just4Me" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Just4Me;
+			productName = Just4Me;
+			productReference = 1D6058910D05DD3D006BFB54 /* Just4Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Just4Me" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Just4Me */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* ListeViewController.xib in Resources */,
+				D161C7531208B7240015A264 /* ImageController.xib in Resources */,
+				D12803A11209FF2700EF067F /* PasswordController.xib in Resources */,
+				D1AAFBF51214630D00493690 /* SetPasswordController.xib in Resources */,
+				D10684EF1214832F0004500E /* AuthentificationController.xib in Resources */,
+				D107C2771226FA4900853668 /* Icon-small.png in Resources */,
+				D107C2781226FA4900853668 /* Icon.png in Resources */,
+				D107C2791226FA4900853668 /* Icon@2x.png in Resources */,
+				D107C27C1226FA5300853668 /* Schloss.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Just4MeAppDelegate.m in Sources */,
+				D161C6EA1208AF7B0015A264 /* ListController.m in Sources */,
+				D161C70E1208B17B0015A264 /* NSData+AES256.m in Sources */,
+				D161C7521208B7240015A264 /* ImageController.m in Sources */,
+				D12803A01209FF2700EF067F /* PasswordController.m in Sources */,
+				D1FEB586120CA0D5000BF8C8 /* Photo.m in Sources */,
+				D1FEB589120CA0E0000BF8C8 /* PhotoList.m in Sources */,
+				D1FEB58E120CA1D2000BF8C8 /* NSString+Helper.m in Sources */,
+				D1AF7FBF1213378B00BB1E38 /* KeychainItemWrapper.m in Sources */,
+				D1AF7FC21213381100BB1E38 /* ApplicationStore.m in Sources */,
+				D1AAFBF3121462D900493690 /* SetPasswordController.m in Sources */,
+				D10684ED121482DD0004500E /* AuthentificationController.m in Sources */,
+				D1499634121DC52800A060BA /* Just4Me.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Just4Me_Prefix.pch;
+				INFOPLIST_FILE = "Just4Me-Info.plist";
+				PRODUCT_NAME = Just4Me;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Just4Me_Prefix.pch;
+				INFOPLIST_FILE = "Just4Me-Info.plist";
+				PRODUCT_NAME = Just4Me;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Just4Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Just4Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D1499632121DC52800A060BA /* Just4Me.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1499633121DC52800A060BA /* Just4Me.xcdatamodel */,
+			);
+			currentVersion = D1499633121DC52800A060BA /* Just4Me.xcdatamodel */;
+			path = Just4Me.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
